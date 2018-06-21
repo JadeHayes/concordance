@@ -31,12 +31,11 @@ word_count = 0
 for line in lines:
     for word in line:
         word = word.lower()
-        word = word.strip('(),:;''""')
         counts[word] = counts.get(word, word_count) + 1
         line_counts.setdefault(word, set()).add(line_num)
     line_num += 1
 
 # reset the current counts dictionary to include line_counts
-for key, val in line_counts.iteritems():
+for key, val in sorted(line_counts.iteritems()):
     counts[key] = (counts.get(key), list(val))
-print counts
+    print "%s: %s" % (key, counts[key])
