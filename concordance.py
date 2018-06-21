@@ -1,15 +1,23 @@
-# -*- coding: utf-8 -*-
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from sys import argv
 
+file_output = open("answer.txt","w")
+
 # run script and file name
 script, filename = argv
 
-file_output = open("answer.txt","w")
+# regex pattern to pass to the rexeg tokenizer to strip punctuation
+pattern = r'''(?x)          # flag to allowing verbose regexps
+        (?:[A-Z]\.)+        # uppercase abbreviations,
+      | (?:[a-z]\.)+        # abbreviations, e.g.
+      | \w+(?:-\w+)*        # words with optional internal hyphens
+      | \$?\d+(?:\.\d+)?%?  # currency and percentages, e.g. $12.40, 82%
+      | r'\w+'              # match words
+    '''
 
 # strips away punctuation
-tokenizer = RegexpTokenizer(r'\w+')
+tokenizer = RegexpTokenizer(pattern)
 
 # open the given file
 with open(filename) as f:
@@ -38,8 +46,11 @@ for line in lines:
         line_counts.setdefault(word, set()).add(line_num)
     line_num += 1
 
-# reset the current counts dictionary to include line_counts
+
+# write output to the output file
 for key, val in sorted(line_counts.iteritems()):
-    counts[key] = (counts.get(key), list(val))
-    file_output.write("%s: %s\n" % (key, counts[key]))
+    s=" "
+    if int(counts[key]) > 1:
+        s = "s "
+    file_output.write('"%s" occured %s time%son line%s%s \n' % (key, counts[key], s, s,list(val)))
 file_output.close()

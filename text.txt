@@ -5,4 +5,4 @@ document written in English: the text can be read from stdin, and the program sh
 concordance to stdout or a file. For each word, it should print the count and the sorted list of citations, in
 this case the zero-indexed sentence number in which that word occurs. You may assume that the input
 contains only spaces, newlines, standard English letters, and standard English punctuation
-marks.
+marks. Adding-more-tests to... See how_many U.S.A $4.00 edge! Cases-I Can cover

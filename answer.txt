@@ -1,73 +1,79 @@
-a: (6, [0, 1])
-alphabetical: (1, [0])
-an: (2, [0, 1])
-and: (4, [0, 1, 2, 3])
-appears: (2, [0])
-arbitrary: (1, [1])
-assume: (1, [3])
-be: (1, [1])
-can: (1, [1])
-case: (1, [2])
-choice: (1, [1])
-citations: (2, [0, 2])
-concordance: (3, [0, 1])
-contains: (1, [3])
-count: (2, [0, 2])
-document: (1, [1])
-e: (1, [0])
-each: (3, [0, 2])
-english: (3, [1, 3])
-file: (1, [1])
-for: (1, [2])
-from: (1, [1])
-g: (1, [0])
-generate: (1, [1])
-how: (1, [0])
-in: (6, [0, 1, 2])
-indexed: (1, [2])
-input: (1, [3])
-is: (1, [0])
-it: (1, [2])
-language: (1, [1])
-letters: (1, [3])
-list: (2, [0, 2])
-marks: (1, [3])
-may: (1, [3])
-newlines: (1, [3])
-number: (2, [0, 2])
-occurs: (1, [2])
-of: (6, [0, 1, 2])
-often: (1, [0])
-only: (1, [3])
-or: (1, [1])
-output: (1, [1])
-page: (1, [0])
-present: (1, [0])
-print: (1, [2])
-program: (2, [1])
-programming: (1, [1])
-punctuation: (1, [3])
-read: (1, [1])
-sentence: (1, [2])
-should: (2, [1, 2])
-sorted: (1, [2])
-spaces: (1, [3])
-standard: (2, [3])
-stdin: (1, [1])
-stdout: (1, [1])
-text: (4, [0, 1])
-that: (3, [1, 2, 3])
-the: (10, [0, 1, 2, 3])
-this: (1, [2])
-to: (1, [1])
-where: (1, [0])
-which: (1, [2])
-will: (1, [1])
-with: (1, [0])
-word: (4, [0, 2])
-words: (1, [0])
-write: (1, [1])
-written: (1, [1])
-you: (1, [3])
-your: (1, [1])
-zero: (1, [2])
+"$4.00" occured 1 time on line [4] 
+"a" occured 7 times on lines [0, 1, 4] 
+"adding-more-tests" occured 1 time on line [4] 
+"alphabetical" occured 1 time on line [0] 
+"an" occured 2 times on lines [0, 1] 
+"and" occured 4 times on lines [0, 1, 2, 3] 
+"appears" occured 2 times on lines [0] 
+"arbitrary" occured 1 time on line [1] 
+"assume" occured 1 time on line [3] 
+"be" occured 1 time on line [1] 
+"can" occured 2 times on lines [1, 5] 
+"case" occured 1 time on line [2] 
+"cases-i" occured 1 time on line [5] 
+"choice" occured 1 time on line [1] 
+"citations" occured 2 times on lines [0, 2] 
+"concordance" occured 3 times on lines [0, 1] 
+"contains" occured 1 time on line [3] 
+"count" occured 2 times on lines [0, 2] 
+"cover" occured 1 time on line [5] 
+"document" occured 1 time on line [1] 
+"e.g." occured 1 time on line [0] 
+"each" occured 3 times on lines [0, 2] 
+"edge" occured 1 time on line [4] 
+"english" occured 3 times on lines [1, 3] 
+"file" occured 1 time on line [1] 
+"for" occured 1 time on line [2] 
+"from" occured 1 time on line [1] 
+"generate" occured 1 time on line [1] 
+"how" occured 1 time on line [0] 
+"how_many" occured 1 time on line [4] 
+"in" occured 6 times on lines [0, 1, 2] 
+"input" occured 1 time on line [3] 
+"is" occured 1 time on line [0] 
+"it" occured 1 time on line [2] 
+"language" occured 1 time on line [1] 
+"letters" occured 1 time on line [3] 
+"list" occured 2 times on lines [0, 2] 
+"marks" occured 1 time on line [3] 
+"may" occured 1 time on line [3] 
+"newlines" occured 1 time on line [3] 
+"number" occured 2 times on lines [0, 2] 
+"occurs" occured 1 time on line [2] 
+"of" occured 6 times on lines [0, 1, 2] 
+"often" occured 1 time on line [0] 
+"only" occured 1 time on line [3] 
+"or" occured 1 time on line [1] 
+"output" occured 1 time on line [1] 
+"page" occured 1 time on line [0] 
+"present" occured 1 time on line [0] 
+"print" occured 1 time on line [2] 
+"program" occured 2 times on lines [1] 
+"programming" occured 1 time on line [1] 
+"punctuation" occured 1 time on line [3] 
+"read" occured 1 time on line [1] 
+"see" occured 1 time on line [4] 
+"sentence" occured 1 time on line [2] 
+"should" occured 2 times on lines [1, 2] 
+"sorted" occured 1 time on line [2] 
+"spaces" occured 1 time on line [3] 
+"standard" occured 2 times on lines [3] 
+"stdin" occured 1 time on line [1] 
+"stdout" occured 1 time on line [1] 
+"text" occured 4 times on lines [0, 1] 
+"that" occured 3 times on lines [1, 2, 3] 
+"the" occured 10 times on lines [0, 1, 2, 3] 
+"this" occured 1 time on line [2] 
+"to" occured 2 times on lines [1, 4] 
+"u.s." occured 1 time on line [4] 
+"where" occured 1 time on line [0] 
+"which" occured 1 time on line [2] 
+"will" occured 1 time on line [1] 
+"with" occured 1 time on line [0] 
+"word" occured 4 times on lines [0, 2] 
+"words" occured 1 time on line [0] 
+"write" occured 1 time on line [1] 
+"written" occured 1 time on line [1] 
+"you" occured 1 time on line [3] 
+"your" occured 1 time on line [1] 
+"zero-indexed" occured 1 time on line [2] 
