@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
 import nltk
 from nltk.tokenize import RegexpTokenizer
 from sys import argv
 
 # run script and file name
 script, filename = argv
+
+file_output = open("answer.txt","w")
 
 # strips away punctuation
 tokenizer = RegexpTokenizer(r'\w+')
@@ -38,4 +41,5 @@ for line in lines:
 # reset the current counts dictionary to include line_counts
 for key, val in sorted(line_counts.iteritems()):
     counts[key] = (counts.get(key), list(val))
-    print "%s: %s" % (key, counts[key])
+    file_output.write("%s: %s\n" % (key, counts[key]))
+file_output.close()
